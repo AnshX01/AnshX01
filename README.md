@@ -55,9 +55,3 @@
 </div>
 
 ###
-
-<br clear="both">
-
-<img src="https://raw.githubusercontent.com/AnshX01/AnshX01/output/snake.svg" alt="Snake animation" />
-
-###
