@@ -5,5 +5,5 @@
 <a href="https://github.com/AnshX01/Orvo"><img src="6-arcade-c5.svg" width="50%" align="top" alt="Orvo"></a><a href="https://github.com/AnshX01/Bantr"><img src="7-arcade-c6.svg" width="50%" align="top" alt="Bantr"></a><br>
 <a href="https://github.com/AnshX01/EasyPantry"><img src="8-arcade-c7.svg" width="50%" align="top" alt="EasyPantry"></a><a href="https://github.com/AnshX01/DeepfakeDetection"><img src="9-arcade-c8.svg" width="50%" align="top" alt="DeepfakeDetection"></a><br>
 <a href="#arcade"><img src="10-arcade-bottom.svg" width="100%" align="top" alt=""></a><br>
-<a href="#arcade"><img src="" width="100%" align="top" alt=""></a>
+<a href="#arcade"><img src="13-arcade-hs.svg" width="100%" align="top" alt=""></a>
 </p>
