@@ -1,57 +1,29 @@
-<h2 align="left">My name is Ansh and I'm an aspiring software engineer from Ahmedabad, India.</h2>
+<p align="center">
+  <img src="2-banner.png" alt="Ansh Saxena - arcade banner" width="100%">
+</p>
 
-###
+# PLAYER 1: ANSH SAXENA
 
-<img align="right" height="150" src="https://user-images.githubusercontent.com/74038190/212748830-4c709398-a386-4761-84d7-9e10b98fbe6e.gif"  />
+<p align="center">
+  <a href="https://files.instinct.com/925ra26zdxq9-anshs-arcade-github-profile"><b>>> INSERT COIN: PLAY THE INTERACTIVE ARCADE PROFILE <<</b></a>
+</p>
 
-###
+## STAGE SELECT (repos)
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="30" alt="java logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" height="30" alt="dart logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" height="30" alt="flutter logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="30" alt="c logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="30" alt="cplusplus logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" height="30" alt="android logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" height="30" alt="androidstudio logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" height="30" alt="arduino logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" height="30" alt="intellij logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="30" alt="vscode logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="30" alt="git logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="30" alt="github logo"  />
-</div>
+| Level | Language | Notes |
+| --- | --- | --- |
+| [fpl-oracle](https://github.com/AnshX01/fpl-oracle) | Python | Fantasy Premier League helper |
+| [Voxpilot](https://github.com/AnshX01/Voxpilot) | Python | Windows voice-control app |
+| [the-council](https://github.com/AnshX01/the-council) | TypeScript | Has an Android build |
+| [Atlas](https://github.com/AnshX01/Atlas) | TypeScript | - |
+| [Orvo](https://github.com/AnshX01/Orvo) | Python | - |
+| [Bantr](https://github.com/AnshX01/Bantr) | JavaScript | G-meet clone using GoLang and React |
+| [EasyPantry](https://github.com/AnshX01/EasyPantry) | Dart | - |
+| [DeepfakeDetection](https://github.com/AnshX01/DeepfakeDetection) | Jupyter Notebook | - |
 
-###
+## POWER-UPS (skills)
 
-<div align="left">
-  <a href="https://www.instagram.com/__anshsaxena_/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
-  </a>
-  <a href="discordapp.com/users/anshx" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo"  />
-  </a>
-  <a href="https://www.linkedin.com/in/ansh-saxena-b41765289/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
-  </a>
-</div>
-
-###
+- **Languages:** Java, C++, C, JavaScript, Python
+- **Frameworks:** Flutter, ReactJS, NodeJS, Tailwind, EJS, Express.js
+- **Tools:** Git, GitHub, MongoDB, Firebase, AutoCAD, Arduino
+- **Coursework:** Data Structures, OOP, Algorithms, DBMS, Computer Networks, Operating Systems
