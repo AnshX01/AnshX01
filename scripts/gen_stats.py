@@ -37,14 +37,6 @@ commits_365 = commit_count(f"author:{USER}+author-date:%3E{since}")
 
 repos = [r for r in get(f"https://api.github.com/users/{USER}/repos?per_page=100&type=owner") if not r["fork"]]
 n_repos = len(repos)
-per_repo = []
-for r in repos:
-    if r["name"].lower() == PROFILE_REPO.lower():
-        continue
-    per_repo.append((r["name"], commit_count(f"author:{USER}+repo:{USER}/{r['name']}")))
-per_repo.sort(key=lambda x: -x[1])
-per_repo = per_repo[:6]
-
 langs = {}
 for r in repos:
     for k, v in get(f"https://api.github.com/repos/{USER}/{r['name']}/languages").items():
@@ -118,16 +110,6 @@ txt(30, y + 160, 10, "LESS", "#9aa0ff")
 for i in range(5): o.append(f'<rect x="{86+i*16}" y="{y+150}" width="12" height="12" fill="{cols[str(i)]}"/>')
 txt(176, y + 160, 10, "MORE", "#9aa0ff"); txt(610, y + 160, 10, "CONTRIBUTIONS PER DAY", "#8a8aa8", "r")
 y += 176 + 12
-panel(16, y, 608, 40 + len(per_repo) * 30 + 18)
-txt(30, y + 28, 12, "COMMITS BY PROJECT", "#ffffff"); txt(610, y + 28, 10, "PUBLIC, ALL TIME", "#ff7ac8", "r")
-mx = max(1, per_repo[0][1])
-for i, (n, c) in enumerate(per_repo):
-    yy = y + 60 + i * 30
-    txt(30, yy + 12, 11, n[:14], "#f7c935")
-    o.append(f'<rect x="200" y="{yy}" width="330" height="14" fill="#23236a"/>')
-    o.append(f'<rect x="200" y="{yy}" width="{max(3,c/mx*330):.0f}" height="14" fill="#f7c935"/>')
-    txt(610, yy + 12, 11, str(c), "#ffffff", "r")
-y += 40 + len(per_repo) * 30 + 18 + 12
 panel(16, y, 608, 205)
 txt(30, y + 28, 12, "LANGUAGES", "#ffffff"); txt(610, y + 28, 10, "BY CODE BYTES", "#ff7ac8", "r")
 palette = ["#f7c935", "#ff7ac8", "#4fd8ff", "#5af0a0", "#9aa0ff", "#8a8aa8"]
@@ -146,4 +128,4 @@ y += 22
 H = int(y + 30)
 svg = f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}"><rect width="{W}" height="{H}" fill="#04041a"/>' + "\n".join(o) + "</svg>"
 open(OUT, "w").write(svg)
-print("ok", len(svg), H, commits_all, commits_365, contribs, active, per_repo, lang_rows)
+print("ok", len(svg), H, commits_all, commits_365, contribs, active, lang_rows)
