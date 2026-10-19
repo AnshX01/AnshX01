@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="2-arcade-profile.svg" alt="Ansh Saxena - arcade-style profile: level select with fpl-oracle, Voxpilot, the-council, Atlas, Orvo, Bantr, EasyPantry, DeepfakeDetection, and a power-ups skills panel" width="100%">
+  <img src="1-arcade-profile.svg" alt="Ansh Saxena - arcade-style profile: level select with fpl-oracle, Voxpilot, the-council, Atlas, Orvo, Bantr, EasyPantry, DeepfakeDetection, and a power-ups skills panel" width="100%">
 </p>
 
 <p align="center">
